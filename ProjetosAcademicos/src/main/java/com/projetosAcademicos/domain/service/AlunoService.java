@@ -1,9 +1,11 @@
-package com.projetosAcademicos.domain;
+package com.projetosAcademicos.domain.service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import com.projetosAcademicos.domain.Aluno;
+import com.projetosAcademicos.domain.repository.AlunoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
