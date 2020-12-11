@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.projetosAcademicos.domain.Aluno;
-import com.projetosAcademicos.domain.service.AlunoService;
+import com.projetosAcademicos.domain.AlunoService;
 import com.projetosAcademicos.domain.dto.AlunoDTO;
 
 @RestController

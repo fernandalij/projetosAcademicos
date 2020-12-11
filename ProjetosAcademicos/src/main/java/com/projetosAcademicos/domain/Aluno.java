@@ -43,6 +43,4 @@ public class Aluno {
     @JoinColumn(name = "fk_endereco_id", foreignKey = @ForeignKey(name = "fk_endereco"), referencedColumnName = "id")
 	private Endereco endereco;
 	
-	
-	
 }
